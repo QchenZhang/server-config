@@ -15,11 +15,11 @@ in your user-local directory.
   - _pip_  
     - Download script  
           `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
-    - Install _pip_
+    - Install _pip_  
           `python get-pip.py --user`
-    - Add _pip_ to your PATH
+    - Add _pip_ to your PATH  
           `export PATH="$PATH:/home/$USER/.local/bin"`
-    - Using _pip_ to install package
+    - Using _pip_ to install package  
           `pip install <package> --user`  
 
     __Note:__ If you are using _pyenv_, you don't need to specify _--user_
