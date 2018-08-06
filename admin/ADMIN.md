@@ -23,3 +23,8 @@
 
       # chage -d 0 <user>
       chage -d 0 mark
+
+- allow user to use docker
+
+      #  sudo usermod -aG docker <user>
+       sudo usermod -aG docker mark
