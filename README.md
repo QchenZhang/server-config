@@ -9,7 +9,7 @@ By default _3.6.5_ and _2.7.15_ are installed.
 If you want other version of python or you want to mange your own python version,
 I recommend [pyenv](https://github.com/pyenv/pyenv). You can simply download the
 [script](https://github.com/pyenv/pyenv-installer) and install your own python
-in you user local directory.
+in your user-local directory.
 
 - Python package management
   - _pip_  
