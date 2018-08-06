@@ -17,7 +17,7 @@
 - change user default login shell
 
       # usermod --shell <path> <user>
-      usermod --shell /bin/shell mark
+      usermod --shell /bin/bash mark
 
 - enforce user change password at the first time
 
