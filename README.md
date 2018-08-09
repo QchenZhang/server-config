@@ -1,6 +1,7 @@
 ### Menu
 - [Python](#python)
 - [SSH Key-Based Authentication](ssh_key_login.md)
+- [Server Spec](spec.md)
 
 
 #### Python
@@ -38,9 +39,10 @@ method
     - install _virtualenv_  
 
           pip install virtualenv --user
-    - create virtual environment
+    - create virtual environment  
+    `-p PYTHON_EXE` The Python interpreter to use
 
-          virtualenv <name>
+          virtualenv -p `which python` <name>
     - activate virtual environment
 
           source <name>/bin/activate
