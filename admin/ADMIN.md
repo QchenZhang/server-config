@@ -6,6 +6,7 @@
 - Add new user  
       # -m: create home directory  
       # -g: assign to group
+      
       # sudo useradd -m -g <group> <user>
       sudo useradd -m -g phd mark
 
