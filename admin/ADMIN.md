@@ -13,7 +13,7 @@
 - change password
 
       # passwd <user>
-      pass mark
+      passwd mark
 
 - change user default login shell
 
