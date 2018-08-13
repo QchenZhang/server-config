@@ -6,7 +6,7 @@
 - Add new user  
       # -m: create home directory  
       # -g: assign to group
-      
+
       # sudo useradd -m -g <group> <user>
       sudo useradd -m -g phd mark
 
@@ -29,3 +29,18 @@
 
       # sudo usermod -aG docker <user>
       sudo usermod -aG docker mark
+
+- firewall rule
+
+  Please enable the firewall on the GPU server before it goes online using
+these commands:
+
+      ufw logging on
+      ufw default deny incoming
+      ufw default allow outgoing
+      ufw allow from 170.140.150.0/23 to any port 22
+      ufw allow from 170.140.147.0/24 to any port 22
+      ufw allow from 10.40.0.0/16 to any port 22
+      ufw allow from 10.110.0.0/16 to any port 22
+      ufw enable
+      ufw status`
