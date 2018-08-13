@@ -16,7 +16,7 @@
 At the request of department, for the security reason, we can only access
 the servers form Emory network. (e.g. Lab WIFI, Ethernet, VPN)  
 - [Emory VPN](http://it.emory.edu/security/vpn.html)
-- [Account sign up](https://goo.gl/forms/J11mLy2AhOegSkkg2)
+- [Account sign up](https://goo.gl/forms/tnu02zQacovctB1U2)
 
 #### Python
 - Python version management   
