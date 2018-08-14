@@ -8,9 +8,9 @@
 #### Server Specifications
 |Server IP| CPU   | RAM |  SSD/HDD* | GPU | System | Ports** |Admin |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---:| :---:|
-|170.140.150.87|i7 6700k|64GB|512GB/1TB|-|Ubuntu 18.04| 22 | Qiuchen, Mark |
-|170.140.150.240|i7 6700k|64GB|512GB/1TB|-|Ubuntu 16.04| 22 | Qiuchen, Mark |
-|170.140.150.91|i7 8700k|32GB|256GB/6TB|GTX 1080Ti x 2|Ubuntu 16.04| 22 | Qiuchen, Mark |
+|170.140.151.87|i7 6700k|64GB|512GB/1TB|-|Ubuntu 18.04| 22 | Qiuchen, Mark |
+|170.140.151.240|i7 6700k|64GB|512GB/1TB|-|Ubuntu 16.04| 22 | Qiuchen, Mark |
+|170.140.151.91|i7 8700k|32GB|256GB/6TB|GTX 1080Ti x 2|Ubuntu 16.04| 22 | Qiuchen, Mark |
 
 __*__ Storage: The SSD is for OS and system wide software. All users
 data is stored in HDD.  
