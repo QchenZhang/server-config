@@ -2,14 +2,20 @@
 - [Server Spec](#server-Specifications)
 - [Login Policy](#Login-Policy)
 - [Python](#python)
+- [Linux Commands](#Linux-Commands)
 - [SSH Key-Based Authentication](ssh_key_login.md)
 
 #### Server Specifications
-|| CPU   | RAM | Storage | GPU | System | Admin |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---:|
-|170.140.150.87|i7 6700k|64GB|512GB ssd + 1TB hdd|-|Ubuntu 18.04| |
-|170.140.150.240|i7 6700k|64GB|512GB ssd + 1TB hdd|-|Ubuntu 16.04| |
-|170.140.150.91|i7 8700k|32GB|256GB ssd raid1 + 1TB hdd|GTX 1080Ti x 2|Ubuntu 16.04| |
+|Server IP| CPU   | RAM |  SSD/HDD* | GPU | System | Ports** |Admin |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:|
+|170.140.150.87|i7 6700k|64GB|512GB/1TB|-|Ubuntu 18.04| 22 | Qiuchen, Mark |
+|170.140.150.240|i7 6700k|64GB|512GB/1TB|-|Ubuntu 16.04| 22 | Qiuchen, Mark |
+|170.140.150.91|i7 8700k|32GB|256GB/6TB|GTX 1080Ti x 2|Ubuntu 16.04| 22 | Qiuchen, Mark |
+
+__*__ Storage: The SSD is for OS and system wide software. All users
+data is stored in HDD.  
+__**__ Ports: Ask admin if you need other ports to be open.
+
 
 
 #### Login Policy
@@ -69,3 +75,17 @@ method
           rm -r <name>
   - other virtual environment tools (e.g. venv)  
     [( ͡° ͜ʖ ͡°)](https://www.google.com)
+
+#### Linux Commands
+- Check GPU usage
+
+      nvidia-smi
+
+- Display Linux processes
+
+      top
+      # enter q to quit
+
+- Copy a file from local to remote
+
+      scp <local path> <user>@<remove ip>:<remote path>
