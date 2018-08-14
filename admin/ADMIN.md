@@ -43,4 +43,4 @@ these commands:
       ufw allow from 10.40.0.0/16 to any port 22
       ufw allow from 10.110.0.0/16 to any port 22
       ufw enable
-      ufw status`
+      ufw status
