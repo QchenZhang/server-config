@@ -1,6 +1,7 @@
 ### Menu
 - [Server Spec](#server-specifications)
 - [Login Policy](#login-policy)
+- [AWS VPS](#aws-vps)
 - [Python](#python)
 - [Linux Commands](#linux-commands)
 - [SSH Key-Based Authentication](ssh_key_login.md)
@@ -23,6 +24,10 @@ At the request of department, for the security reason, we can only access
 the servers form Emory network. (e.g. Lab WIFI, Ethernet, VPN)  
 - [Emory VPN](http://it.emory.edu/security/vpn.html)
 - [Account sign up](https://goo.gl/forms/J11mLy2AhOegSkkg2)
+
+#### AWS VPS
+If you need host your VPS on AWS, please contact Pengfei or Qiuchen.  
+More information later.
 
 #### Python
 - Python version management   
