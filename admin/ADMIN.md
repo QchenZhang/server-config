@@ -8,27 +8,27 @@
       # -g: assign to group
 
       # sudo useradd -m -g <group> <user>
-      sudo useradd -m -g phd mark
+      sudo useradd -m -g phd abc
 
 - change password
 
       # passwd <user>
-      passwd mark
+      passwd abc
 
 - change user default login shell
 
       # usermod --shell <path> <user>
-      usermod --shell /bin/bash mark
+      usermod --shell /bin/bash abc
 
 - enforce user change password at the first time
 
       # chage -d 0 <user>
-      chage -d 0 mark
+      chage -d 0 abc
 
 - allow user to  use docker
 
       # sudo usermod -aG docker <user>
-      sudo usermod -aG docker mark
+      sudo usermod -aG docker abc
 
 - firewall rule
 
